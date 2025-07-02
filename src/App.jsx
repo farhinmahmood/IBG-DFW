@@ -219,43 +219,30 @@ const eventsContent = {
       image: "/ev2.jpg",
     },
   ],
+  images: [
+    "/front.jpg",
+    "/ev1.jpg",
+    "/ev2.jpg",
+    "/ev1.jpeg",
+    "/ev2.jpeg",
+    "/ev3.jpeg",
+    "/ev4.jpeg",
+    "/ev5.jpeg",
+    "/about.jpg",
+  ],
 };
 
 const contactContent = {
   title: "Get In Touch",
-  text: "Have questions or want to get involved? Reach out to one of our contacts below, or follow our social media to stay connected with the IBG DFW family.",
+  text: "Have questions or want to get involved? Reach out to us via email, check with our points of contact, or follow our social media to stay connected with the IBG DFW family.",
+  generalEmail: "ibgdfwcommunity@gmail.com",
   contacts: [
-    {
-      name: "Nafis Nasim",
-      phone: "(214)-797-9884",
-      email: "   mnasimutd@gmail.com  ",
-    },
-    {
-      name: "Samsuddin Faisal Mahmood",
-      phone: "(214)-815-9722",
-      email: "sfmahmood_du@yahoo.com",
-    },
-
-    {
-      name: "Abdullah Rana",
-      phone: "(864)-650-3756",
-      email: "ashfaque.prof@gmail.com",
-    },
-    {
-      name: "Ashfaque Chowdhury",
-      phone: "(214)-845-1734",
-      email: "ashfaque.prof@gmail.com",
-    },
-    {
-      name: "Mohammad Mirwazul Islam",
-      phone: "(803)-414-8317",
-      email: "pikul.du@gmail.com",
-    },
-    {
-      name: "Shah Shahriar",
-      phone: "(214)-642-0757",
-      email: "shah.shahriar@gmail.com",
-    },
+    "Nafis Nasim",
+    "Samsuddin Faisal Mahmood",
+    "Abdullah Rana",
+    "Ashfaque Chowdhury",
+    "Mohammad Mirwazul Islam",
+    "Shah Shahriar",
   ],
   socials: [
     {
@@ -301,7 +288,7 @@ const ImageGallery = ({ images, columns = 5 }) => {
           key={index}
           src={src}
           alt={`Gallery image ${index + 1}`}
-          className="rounded-lg shadow-lg object-cover w-full h-52 hover:scale-105 transition-transform duration-300"
+          className="rounded-lg shadow-lg object-cover w-full h-64 hover:scale-105 transition-transform duration-300"
         />
       ))}
     </div>
@@ -346,16 +333,11 @@ const HomePage = () => (
       </p>
     </div>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div className="flex justify-center">
       <img
         src="/Front Page Picture.jpg"
         alt="IBG DFW badminton group"
-        className="rounded-xl shadow-2xl w-full h-96 object-cover"
-      />
-      <img
-        src="/front.jpg"
-        alt="IBG DFW fundraising event"
-        className="rounded-xl shadow-2xl w-full h-96 object-cover"
+        className="rounded-xl shadow-2xl w-full max-w-4xl h-auto object-cover"
       />
     </div>
   </PageWrapper>
@@ -567,10 +549,10 @@ const SponsorsPage = () => (
 const EventsPage = () => (
   <PageWrapper>
     <SectionTitle>{eventsContent.title}</SectionTitle>
-    <p className="text-center max-w-3xl mx-auto text-lg text-gray-600">
+    <p className="text-center max-w-3xl mx-auto text-lg text-gray-600 mb-16">
       {eventsContent.text}
     </p>
-    <div className="mt-12 max-w-4xl mx-auto space-y-12">
+    <div className="max-w-4xl mx-auto space-y-12">
       {eventsContent.events.map((event, index) => (
         <div
           key={index}
@@ -596,46 +578,56 @@ const EventsPage = () => (
         </div>
       ))}
     </div>
+
+    <div className="mt-24">
+      <h3
+        className="text-2xl font-bold text-center mb-8"
+        style={{ color: colors.primary }}
+      >
+        Event Gallery
+      </h3>
+      <ImageGallery images={eventsContent.images} columns={3} />
+    </div>
   </PageWrapper>
 );
 
 const ContactPage = () => (
   <PageWrapper>
     <SectionTitle>{contactContent.title}</SectionTitle>
-    <p className="text-center max-w-3xl mx-auto text-lg text-gray-600 mb-16">
+    <p className="text-center max-w-3xl mx-auto text-lg text-gray-600 mb-12">
       {contactContent.text}
     </p>
 
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-      {contactContent.contacts.map((contact, index) => (
-        <div
-          key={index}
-          className="bg-white p-6 rounded-lg shadow-lg text-center"
-        >
-          <h3
-            className="text-xl font-bold mb-4"
-            style={{ color: colors.primary }}
-          >
-            {contact.name}
-          </h3>
-          <div className="space-y-3 text-gray-600">
-            <a
-              href={`tel:${contact.phone}`}
-              className="flex items-center justify-center gap-2 hover:text-blue-600"
-            >
-              <Phone size={16} />
-              <span>{contact.phone}</span>
-            </a>
-            <a
-              href={`mailto:${contact.email.trim()}`}
-              className="flex items-center justify-center gap-2 hover:text-blue-600 break-all"
-            >
-              <MailIcon size={16} />
-              <span>{contact.email.trim()}</span>
-            </a>
+    <div className="text-center mb-16">
+      <h3 className="text-2xl font-bold mb-4" style={{ color: colors.primary }}>
+        General Inquiries
+      </h3>
+      <a
+        href={`mailto:${contactContent.generalEmail}`}
+        className="inline-flex items-center gap-2 text-xl font-semibold py-3 px-6 rounded-lg transition-colors duration-300 bg-blue-500 text-white hover:bg-blue-600"
+        style={{ backgroundColor: colors.accent }}
+      >
+        <MailIcon size={20} />
+        <span>{contactContent.generalEmail}</span>
+      </a>
+    </div>
+
+    <div className="max-w-4xl mx-auto">
+      <h3
+        className="text-2xl font-bold text-center mb-8"
+        style={{ color: colors.primary }}
+      >
+        Points of Contact
+      </h3>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-6 text-center">
+        {contactContent.contacts.map((name, index) => (
+          <div key={index} className="bg-white p-4 rounded-lg shadow-md">
+            <p className="font-semibold" style={{ color: colors.primary }}>
+              {name}
+            </p>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
 
     <div className="mt-20 text-center">
@@ -664,7 +656,7 @@ const ContactPage = () => (
 
 const Header = ({ currentPage, navigateTo }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [setIsScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
