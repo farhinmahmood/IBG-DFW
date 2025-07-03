@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "https://farhinmahmood.github.io",
+  base: "/IBG-DFW/",
   plugins: [tailwindcss(), react()],
 });
