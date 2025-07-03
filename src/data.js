@@ -8,7 +8,8 @@ export const colors = {
   background: "#F9FAFB",
 };
 
-export const LOGO_URL = "/src/assets/Indoor Badminton Group logo .png";
+export const LOGO_URL =
+  "/IBG-DFW/assets/images/Indoor Badminton Group logo .png";
 
 export const navLinks = [
   { title: "Home", id: "home" },
@@ -61,7 +62,7 @@ export const badmintonContent = {
     text: "IBG DFW members organize badminton workshops for children 7 years or older every summer. The capacity of this workshop is up to 20 members. The workshop is led by experienced coaches and the children have a great time learning about Badminton as well as community service.",
   },
   images: [
-    "/src/assets/bad1.jpg",
+    "/IBG-DFW/assets/images/bad1.jpg",
     "src/assets/bad2.jpg",
     "src/assets/bad3.jpg",
     "src/assets/bad4.jpg",
