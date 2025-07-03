@@ -1,3 +1,5 @@
+import IndoorBadmintonGrouplogo from "./assets/IndoorBadmintonGrouplogo.png";
+
 export const colors = {
   primary: "#0B2A4C", // Dark Blue
   secondary: "#36A9E1", // Sky Blue
@@ -8,7 +10,7 @@ export const colors = {
   background: "#F9FAFB",
 };
 
-export const LOGO_URL = "./src/assets/IndoorBadmintonGrouplogo.png";
+export const LOGO_URL = IndoorBadmintonGrouplogo;
 
 export const navLinks = [
   { title: "Home", id: "home" },
@@ -43,7 +45,7 @@ export const aboutContent = {
       "The group decided to formally recognize the community service through the formation of the non-profit organization in December 2024.",
     ],
   },
-  images: ["./src/assets/about.jpg"],
+  images: ["./assets/about.jpg"],
 };
 
 export const badmintonContent = {
@@ -61,10 +63,10 @@ export const badmintonContent = {
     text: "IBG DFW members organize badminton workshops for children 7 years or older every summer. The capacity of this workshop is up to 20 members. The workshop is led by experienced coaches and the children have a great time learning about Badminton as well as community service.",
   },
   images: [
-    "./src/assets/bad1.jpg",
-    "./src/assets/bad2.jpg",
-    "./src/assets/bad3.jpg",
-    "./src/assets/bad4.jpg",
+    "./assets/bad1.jpg",
+    "./assets/bad2.jpg",
+    "./assets/bad3.jpg",
+    "./assets/bad4.jpg",
   ],
 };
 
@@ -87,13 +89,13 @@ export const communityContent = {
             "This includes dry food items purchased from Sam’s Club. Some of the typical items included in this package are cookies, chips, bananas, muffins, sugar, flour, etc.",
         },
       ],
-      image: "./src/assets/com1.jpg",
+      image: "./assets/com1.jpg",
     },
     {
       title: "Canyon Creek Wetlands Restoration",
       description:
         "IBG DFW has also committed to supporting the Canyon Creek Wetlands and Wildscape Ecosystem Restoration Project in Richardson, Texas. The property is approximately 30 acres of Black Land prairie that have been impacted by aggressive plants such as scabiosa which are invasive to the native wildlife. The goal of this project is to remove invasive species and preserve/enhance a wildscape ecosystem of native plants and animals that the community enjoys; IBG members volunteer on third Saturdays of every month to enrich nature and the community. The members are working closely with the city of Richardson on this project.",
-      image: "./src/assets/com11.jpg",
+      image: "./assets/com11.jpg",
     },
     {
       title: "Other Projects & Collaborations",
@@ -104,20 +106,20 @@ export const communityContent = {
         "Worked with the Basic Needs Resource Center department at the University of Texas at Dallas.",
         "Organized a big clothing drive among its members and donated these items to the Basic Needs Resource Center to help current students in need.",
       ],
-      image: "./src/assets/com3.jpg",
+      image: "./assets/com3.jpg",
     },
   ],
   images: [
-    "./src/assets/com4.jpg",
-    "./src/assets/com5.jpg",
-    "./src/assets/com6.jpg",
-    "./src/assets/com7.jpg",
-    "./src/assets/com8.jpg",
-    "./src/assets/com9.jpg",
-    "./src/assets/com10.jpg",
-    "./src/assets/com11.jpg",
-    "./src/assets/com1.jpg",
-    "./src/assets/com3.jpg",
+    "./assets/com4.jpg",
+    "./assets/com5.jpg",
+    "./assets/com6.jpg",
+    "./assets/com7.jpg",
+    "./assets/com8.jpg",
+    "./assets/com9.jpg",
+    "./assets/com10.jpg",
+    "./assets/com11.jpg",
+    "./assets/com1.jpg",
+    "./assets/com3.jpg",
   ],
 };
 
@@ -143,21 +145,21 @@ export const sponsorsContent = {
   //     },
   //   ],
   images: [
-    "./src/assets/sp1.jpg",
-    "./src/assets/sp2.jpg",
-    "./src/assets/sp3.jpg",
-    "./src/assets/sp4.jpg",
-    "./src/assets/sp5.jpeg",
-    "./src/assets/sp6.jpeg",
-    "./src/assets/sp7.jpeg",
-    "./src/assets/sp8.jpeg",
-    "./src/assets/sp9.jpg",
-    "./src/assets/sp10.jpeg",
-    "./src/assets/sp11.jpg",
-    "./src/assets/sp12.png",
-    "./src/assets/sp13.jpg",
-    "./src/assets/sp14.jpg",
-    "./src/assets/sp15.jpg",
+    "./assets/sp1.jpg",
+    "./assets/sp2.jpg",
+    "./assets/sp3.jpg",
+    "./assets/sp4.jpg",
+    "./assets/sp5.jpeg",
+    "./assets/sp6.jpeg",
+    "./assets/sp7.jpeg",
+    "./assets/sp8.jpeg",
+    "./assets/sp9.jpg",
+    "./assets/sp10.jpeg",
+    "./assets/sp11.jpg",
+    "./assets/sp12.png",
+    "./assets/sp13.jpg",
+    "./assets/sp14.jpg",
+    "./assets/sp15.jpg",
   ],
 };
 
@@ -170,33 +172,33 @@ export const eventsContent = {
       date: "July 12, 2025",
       description:
         "Join us in providing a warm meal and support for our neighbors in South Dallas. A great opportunity to serve and connect.",
-      image: "./src/assets/com3.jpg",
+      image: "./assets/com3.jpg",
     },
     {
       title: "Gala Dinner",
       date: "August 9, 2025",
       description:
         "An evening of celebration and fundraising to support our ongoing community projects. Formal attire requested.",
-      image: "./src/assets/ev1.jpg",
+      image: "./assets/ev1.jpg",
     },
     {
       title: "Annual Tournament with Opening Ceremony",
       date: "November 21 – November 22, 2025",
       description:
         "Our flagship badminton tournament is back! Two days of intense competition, community spirit, and fun for the whole family.",
-      image: "./src/assets/ev2.jpg",
+      image: "./assets/ev2.jpg",
     },
   ],
   images: [
-    "./src/assets/front.jpg",
-    "./src/assets/ev1.jpg",
-    "./src/assets/ev2.jpg",
-    "./src/assets/ev1.jpeg",
-    "./src/assets/ev2.jpeg",
-    "./src/assets/ev3.jpeg",
-    "./src/assets/ev4.jpeg",
-    "./src/assets/ev5.jpeg",
-    "./src/assets/about.jpg",
+    "./assets/front.jpg",
+    "./assets/ev1.jpg",
+    "./assets/ev2.jpg",
+    "./assets/ev1.jpeg",
+    "./assets/ev2.jpeg",
+    "./assets/ev3.jpeg",
+    "./assets/ev4.jpeg",
+    "./assets/ev5.jpeg",
+    "./assets/about.jpg",
   ],
 };
 
