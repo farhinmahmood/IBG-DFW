@@ -8,7 +8,7 @@ export const colors = {
   background: "#F9FAFB",
 };
 
-export const LOGO_URL = "src/assets/Indoor Badminton Group logo .png";
+export const LOGO_URL = "/src/assets/Indoor Badminton Group logo .png";
 
 export const navLinks = [
   { title: "Home", id: "home" },
@@ -61,7 +61,7 @@ export const badmintonContent = {
     text: "IBG DFW members organize badminton workshops for children 7 years or older every summer. The capacity of this workshop is up to 20 members. The workshop is led by experienced coaches and the children have a great time learning about Badminton as well as community service.",
   },
   images: [
-    "src/assets/bad1.jpg",
+    "/src/assets/bad1.jpg",
     "src/assets/bad2.jpg",
     "src/assets/bad3.jpg",
     "src/assets/bad4.jpg",
@@ -124,24 +124,24 @@ export const communityContent = {
 export const sponsorsContent = {
   title: "Our Valued Sponsors",
   text: "Within a short span of time, IBG DFW has been able to establish its name among the sponsors. The biggest sponsors are the members of the organization. Because of the member support, the organization can arrange various types of social, community drive and cultural events.\n\nAdditionally, the sponsorship has extended beyond the members. There are over 50 outside donors for the organization. The donors range from individuals to families to small businesses to corporations. Additionally, some of these sponsors are out of state including Washington, Oregon, New Jersey, Wisconsin, Indiana, California and Virginia.",
-//   logos: [
-//     {
-//       name: "Sponsor Logo 1",
-//       url: "https://placehold.co/200x100/e0e0e0/333333?text=Sponsor+Logo+1",
-//     },
-//     {
-//       name: "Sponsor Logo 2",
-//       url: "https://placehold.co/200x100/e0e0e0/333333?text=Sponsor+Logo+2",
-//     },
-//     {
-//       name: "Sponsor Logo 3",
-//       url: "https://placehold.co/200x100/e0e0e0/333333?text=Sponsor+Logo+3",
-//     },
-//     {
-//       name: "Sponsor Logo 4",
-//       url: "https://placehold.co/200x100/e0e0e0/333333?text=Sponsor+Logo+4",
-//     },
-//   ],
+  //   logos: [
+  //     {
+  //       name: "Sponsor Logo 1",
+  //       url: "https://placehold.co/200x100/e0e0e0/333333?text=Sponsor+Logo+1",
+  //     },
+  //     {
+  //       name: "Sponsor Logo 2",
+  //       url: "https://placehold.co/200x100/e0e0e0/333333?text=Sponsor+Logo+2",
+  //     },
+  //     {
+  //       name: "Sponsor Logo 3",
+  //       url: "https://placehold.co/200x100/e0e0e0/333333?text=Sponsor+Logo+3",
+  //     },
+  //     {
+  //       name: "Sponsor Logo 4",
+  //       url: "https://placehold.co/200x100/e0e0e0/333333?text=Sponsor+Logo+4",
+  //     },
+  //   ],
   images: [
     "src/assets/sp1.jpg",
     "src/assets/sp2.jpg",
