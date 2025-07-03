@@ -1,6 +1,16 @@
 import React from "react";
 import PageWrapper from "../components/PageWrapper";
-import { introContent, colors, LOGO_URL } from "../data";
+import logo from "../assets/IndoorBadmintonGroupLogo.png";
+import homePhoto1 from "../assets/FrontPagePicture.jpg";
+import { colors } from "../colors";
+
+const LOGO_URL = logo;
+
+const introContent = {
+  title: "Welcome to IBG DFW",
+  text: "IBG DFW (Indoor Badminton Group – Dallas-Fort Worth) is a community-based nonprofit organization comprised mostly of alumni from the University of Texas at Dallas (UT Dallas). While our organization started with sports and recreation, particularly badminton, at present, our mission extends far beyond that. We are actively involved in charitable initiatives and community service projects across DFW area. We are striving to excel as a non-profit organization, and we are committed to making a positive impact in our community by giving back.",
+  photo1: homePhoto1,
+};
 
 const HomePage = () => (
   <PageWrapper>

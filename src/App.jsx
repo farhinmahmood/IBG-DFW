@@ -8,7 +8,7 @@ import CommunityPage from "./pages/CommunityPage";
 import SponsorsPage from "./pages/SponsorsPage";
 import EventsPage from "./pages/EventsPage";
 import ContactPage from "./pages/ContactPage";
-import { colors } from "./data";
+import { colors } from "./colors";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState("home");

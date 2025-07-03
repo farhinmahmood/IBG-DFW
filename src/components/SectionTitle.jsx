@@ -1,5 +1,5 @@
 import React from "react";
-import { colors } from "../data";
+import { colors } from "../colors";
 
 const SectionTitle = ({ children }) => (
   <h2

@@ -1,7 +1,29 @@
 import React from "react";
 import PageWrapper from "../components/PageWrapper";
 import SectionTitle from "../components/SectionTitle";
-import { aboutContent, colors } from "../data";
+import aboutPhoto from "../assets/about.jpg";
+import { colors } from "../colors";
+
+const aboutContent = {
+  title: "About IBG DFW",
+  intro:
+    "IBG DFW is a community based non-profit organization that was established in December 2024. There are currently over 100 members who are part of this organization. The group engages in sports as well as community service in the DFW region.",
+  mission: {
+    title: "Our Mission",
+    text: "The mission of the IBG DFW is to promote fitness, an active lifestyle, and health while fostering camaraderie among members through the sport of badminton. Our goal is to create a welcoming and inclusive environment where players of all skill levels can enjoy the game, improve their abilities, and participate in regular practice sessions, tournaments, and sports events. \n\nBeyond the game, IBG is an inclusive betterment group that is committed to community engagement by involving family members and fostering equitable opportunities. We aim to support underserved communities and promote sustainable development by addressing social, economic, and environmental challenges both in the Dallas Fort Worth area in the state of Texas as well as in Bangladesh. \n\nThrough collaboration, advocacy, and innovative programs, IBG strives to create pathways for individuals to thrive and contribute to a better, more inclusive future for all.",
+  },
+  history: {
+    title: "Our History",
+    points: [
+      "IBG DFW started as an informal sports gathering organized by a group of friends in the year 2020 when the COVID pandemic happened.",
+      "The group started to grow over time and many people from the community were interested to join the group.",
+      "The group started to also involve the family members in various types of events including fundraising, cultural and sports activities. The children of the members participated and volunteered in these events.",
+      "The group engaged in various types of community service activities since 2023 including donation to flood victims, cloth drives, food drives and other activities.",
+      "The group decided to formally recognize the community service through the formation of the non-profit organization in December 2024.",
+    ],
+  },
+  images: [aboutPhoto],
+};
 
 const AboutPage = () => (
   <PageWrapper>

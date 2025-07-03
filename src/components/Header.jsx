@@ -1,6 +1,19 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import { navLinks, LOGO_URL, colors } from "../data";
+import logo from "../assets/IndoorBadmintonGroupLogo.png";
+import { colors } from "../colors";
+
+const LOGO_URL = logo;
+
+const navLinks = [
+  { title: "Home", id: "home" },
+  { title: "About Us", id: "about" },
+  { title: "Badminton", id: "badminton" },
+  { title: "Community Service", id: "community" },
+  { title: "Sponsors", id: "sponsors" },
+  { title: "Upcoming Events", id: "events" },
+  { title: "Contact", id: "contact" },
+];
 
 const Header = ({ currentPage, navigateTo }) => {
   const [isOpen, setIsOpen] = useState(false);

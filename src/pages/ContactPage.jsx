@@ -2,8 +2,30 @@ import React from "react";
 import PageWrapper from "../components/PageWrapper";
 import SectionTitle from "../components/SectionTitle";
 import SocialIcon from "../components/SocialIcon";
-import { contactContent, colors } from "../data";
+import { colors } from "../colors";
 import { Mail as MailIcon } from "lucide-react";
+
+const contactContent = {
+  title: "Get In Touch",
+  text: "Have questions or want to get involved? Reach out to us via email, check with our points of contact, or follow our social media to stay connected with the IBG DFW family.",
+  generalEmail: "ibgdfwcommunity@gmail.com",
+  contacts: [
+    "Nafis Nasim",
+    "Samsuddin Faisal Mahmood",
+    "Abdullah Rana",
+    "Ashfaque Chowdhury",
+    "Mohammad Mirwazul Islam",
+    "Shah Shahriar",
+  ],
+  socials: [
+    {
+      name: "Facebook",
+      url: "https://www.facebook.com/profile.php?id=61571315613081",
+    },
+    { name: "Instagram", url: "https://instagram.com/your-profile-link" },
+    { name: "X", url: "https://twitter.com/your-handle" },
+  ],
+};
 
 const ContactPage = () => (
   <PageWrapper>
