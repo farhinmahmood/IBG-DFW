@@ -1,12 +1,12 @@
 import React from "react";
 import PageWrapper from "../components/PageWrapper";
-import { introContent, colors } from "../data";
+import { introContent, colors, LOGO_URL } from "../data";
 
 const HomePage = () => (
   <PageWrapper>
     <div className="text-center">
       <img
-        src="src/assets/Indoor Badminton Group logo .png"
+        src={LOGO_URL}
         alt="IBG DFW Logo"
         className="mx-auto h-32 sm:h-40 md:h-48 w-auto mb-8"
       />
@@ -22,7 +22,7 @@ const HomePage = () => (
     </div>
     <div className="flex justify-center">
       <img
-        src="src/assets/Front Page Picture.jpg"
+        src="./src/assets/FrontPagePicture.jpg"
         alt="IBG DFW badminton group"
         className="rounded-xl shadow-2xl w-full max-w-4xl h-auto object-cover"
       />
