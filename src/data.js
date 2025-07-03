@@ -1,4 +1,44 @@
-import IndoorBadmintonGrouplogo from "./assets/IndoorBadmintonGrouplogo.png";
+import logo from "./assets/IndoorBadmintonGroupLogo.png";
+import homePhoto1 from "./assets/FrontPagePicture.jpg";
+import homePhoto2 from "./assets/front.jpg";
+import aboutPhoto from "./assets/about.jpg";
+import bad1 from "./assets/bad1.jpg";
+import bad2 from "./assets/bad2.jpg";
+import bad3 from "./assets/bad3.jpg";
+import bad4 from "./assets/bad4.jpg";
+import com1 from "./assets/com1.jpg";
+import com2 from "./assets/com2.jpg";
+import com3 from "./assets/com3.jpg";
+import com4 from "./assets/com4.jpg";
+import com5 from "./assets/com5.jpg";
+import com6 from "./assets/com6.jpg";
+import com7 from "./assets/com7.jpg";
+import com8 from "./assets/com8.jpg";
+import com9 from "./assets/com9.jpg";
+import com10 from "./assets/com10.jpg";
+import com11 from "./assets/com11.jpg";
+import sp1 from "./assets/sp1.jpg";
+import sp2 from "./assets/sp2.jpg";
+import sp3 from "./assets/sp3.jpg";
+import sp4 from "./assets/sp4.jpg";
+import sp5 from "./assets/sp5.jpeg";
+import sp6 from "./assets/sp6.jpeg";
+import sp7 from "./assets/sp7.jpeg";
+import sp8 from "./assets/sp8.jpeg";
+import sp9 from "./assets/sp9.jpg";
+import sp10 from "./assets/sp10.jpeg";
+import sp11 from "./assets/sp11.jpg";
+import sp12 from "./assets/sp12.png";
+import sp13 from "./assets/sp13.jpg";
+import sp14 from "./assets/sp14.jpg";
+import sp15 from "./assets/sp15.jpg";
+import ev1 from "./assets/ev1.jpg";
+import ev2 from "./assets/ev2.jpg";
+import ev1_jpeg from "./assets/ev1.jpeg";
+import ev2_jpeg from "./assets/ev2.jpeg";
+import ev3_jpeg from "./assets/ev3.jpeg";
+import ev4_jpeg from "./assets/ev4.jpeg";
+import ev5_jpeg from "./assets/ev5.jpeg";
 
 export const colors = {
   primary: "#0B2A4C", // Dark Blue
@@ -10,7 +50,7 @@ export const colors = {
   background: "#F9FAFB",
 };
 
-export const LOGO_URL = IndoorBadmintonGrouplogo;
+export const LOGO_URL = logo;
 
 export const navLinks = [
   { title: "Home", id: "home" },
@@ -25,6 +65,8 @@ export const navLinks = [
 export const introContent = {
   title: "Welcome to IBG DFW",
   text: "IBG DFW (Indoor Badminton Group – Dallas-Fort Worth) is a community-based nonprofit organization comprised mostly of alumni from the University of Texas at Dallas (UT Dallas). While our organization started with sports and recreation, particularly badminton, at present, our mission extends far beyond that. We are actively involved in charitable initiatives and community service projects across DFW area. We are striving to excel as a non-profit organization, and we are committed to making a positive impact in our community by giving back.",
+  photo1: homePhoto1,
+  photo2: homePhoto2,
 };
 
 export const aboutContent = {
@@ -45,7 +87,7 @@ export const aboutContent = {
       "The group decided to formally recognize the community service through the formation of the non-profit organization in December 2024.",
     ],
   },
-  images: ["./assets/about.jpg"],
+  images: [aboutPhoto],
 };
 
 export const badmintonContent = {
@@ -62,12 +104,7 @@ export const badmintonContent = {
     title: "Summer Badminton Workshop",
     text: "IBG DFW members organize badminton workshops for children 7 years or older every summer. The capacity of this workshop is up to 20 members. The workshop is led by experienced coaches and the children have a great time learning about Badminton as well as community service.",
   },
-  images: [
-    "./assets/bad1.jpg",
-    "./assets/bad2.jpg",
-    "./assets/bad3.jpg",
-    "./assets/bad4.jpg",
-  ],
+  images: [bad1, bad2, bad3, bad4],
 };
 
 export const communityContent = {
@@ -89,13 +126,13 @@ export const communityContent = {
             "This includes dry food items purchased from Sam’s Club. Some of the typical items included in this package are cookies, chips, bananas, muffins, sugar, flour, etc.",
         },
       ],
-      image: "./assets/com1.jpg",
+      image: com1,
     },
     {
       title: "Canyon Creek Wetlands Restoration",
       description:
         "IBG DFW has also committed to supporting the Canyon Creek Wetlands and Wildscape Ecosystem Restoration Project in Richardson, Texas. The property is approximately 30 acres of Black Land prairie that have been impacted by aggressive plants such as scabiosa which are invasive to the native wildlife. The goal of this project is to remove invasive species and preserve/enhance a wildscape ecosystem of native plants and animals that the community enjoys; IBG members volunteer on third Saturdays of every month to enrich nature and the community. The members are working closely with the city of Richardson on this project.",
-      image: "./assets/com11.jpg",
+      image: com11,
     },
     {
       title: "Other Projects & Collaborations",
@@ -106,21 +143,10 @@ export const communityContent = {
         "Worked with the Basic Needs Resource Center department at the University of Texas at Dallas.",
         "Organized a big clothing drive among its members and donated these items to the Basic Needs Resource Center to help current students in need.",
       ],
-      image: "./assets/com3.jpg",
+      image: com3,
     },
   ],
-  images: [
-    "./assets/com4.jpg",
-    "./assets/com5.jpg",
-    "./assets/com6.jpg",
-    "./assets/com7.jpg",
-    "./assets/com8.jpg",
-    "./assets/com9.jpg",
-    "./assets/com10.jpg",
-    "./assets/com11.jpg",
-    "./assets/com1.jpg",
-    "./assets/com3.jpg",
-  ],
+  images: [com4, com5, com6, com7, com8, com9, com10, com11, com1, com3],
 };
 
 export const sponsorsContent = {
@@ -145,21 +171,21 @@ export const sponsorsContent = {
   //     },
   //   ],
   images: [
-    "./assets/sp1.jpg",
-    "./assets/sp2.jpg",
-    "./assets/sp3.jpg",
-    "./assets/sp4.jpg",
-    "./assets/sp5.jpeg",
-    "./assets/sp6.jpeg",
-    "./assets/sp7.jpeg",
-    "./assets/sp8.jpeg",
-    "./assets/sp9.jpg",
-    "./assets/sp10.jpeg",
-    "./assets/sp11.jpg",
-    "./assets/sp12.png",
-    "./assets/sp13.jpg",
-    "./assets/sp14.jpg",
-    "./assets/sp15.jpg",
+    sp1,
+    sp2,
+    sp3,
+    sp4,
+    sp5,
+    sp6,
+    sp7,
+    sp8,
+    sp9,
+    sp10,
+    sp11,
+    sp12,
+    sp13,
+    sp14,
+    sp15,
   ],
 };
 
@@ -172,33 +198,33 @@ export const eventsContent = {
       date: "July 12, 2025",
       description:
         "Join us in providing a warm meal and support for our neighbors in South Dallas. A great opportunity to serve and connect.",
-      image: "./assets/com3.jpg",
+      image: com3,
     },
     {
       title: "Gala Dinner",
       date: "August 9, 2025",
       description:
         "An evening of celebration and fundraising to support our ongoing community projects. Formal attire requested.",
-      image: "./assets/ev1.jpg",
+      image: ev1,
     },
     {
       title: "Annual Tournament with Opening Ceremony",
       date: "November 21 – November 22, 2025",
       description:
         "Our flagship badminton tournament is back! Two days of intense competition, community spirit, and fun for the whole family.",
-      image: "./assets/ev2.jpg",
+      image: ev2,
     },
   ],
   images: [
-    "./assets/front.jpg",
-    "./assets/ev1.jpg",
-    "./assets/ev2.jpg",
-    "./assets/ev1.jpeg",
-    "./assets/ev2.jpeg",
-    "./assets/ev3.jpeg",
-    "./assets/ev4.jpeg",
-    "./assets/ev5.jpeg",
-    "./assets/about.jpg",
+    homePhoto2,
+    ev1,
+    ev2,
+    ev1_jpeg,
+    ev2_jpeg,
+    ev3_jpeg,
+    ev4_jpeg,
+    ev5_jpeg,
+    aboutPhoto,
   ],
 };
 

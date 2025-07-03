@@ -22,7 +22,7 @@ const HomePage = () => (
     </div>
     <div className="flex justify-center">
       <img
-        src="./src/assets/FrontPagePicture.jpg"
+        src={introContent.photo1}
         alt="IBG DFW badminton group"
         className="rounded-xl shadow-2xl w-full max-w-4xl h-auto object-cover"
       />
