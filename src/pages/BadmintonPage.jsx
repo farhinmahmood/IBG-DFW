@@ -23,7 +23,7 @@ const badmintonContent = {
     title: "Summer Badminton Workshop",
     text: "IBG DFW members organize badminton workshops for children 7 years or older every summer. The capacity of this workshop is up to 20 members. The workshop is led by experienced coaches and the children have a great time learning about Badminton as well as community service.",
   },
-  images: [bad5,bad1, bad2, bad3, bad4],
+  images: [bad5, bad1, bad2, bad3, bad4],
 };
 
 const BadmintonPage = () => (
@@ -65,7 +65,7 @@ const BadmintonPage = () => (
     >
       Gallery
     </h3>
-    <ImageGallery images={badmintonContent.images} columns={4} />
+    <ImageGallery images={badmintonContent.images} columns={3} />
   </PageWrapper>
 );
 

@@ -1,7 +1,7 @@
 import React from "react";
 import PageWrapper from "../components/PageWrapper";
 import SectionTitle from "../components/SectionTitle";
-import ImageGallery from "../components/ImageGallery";
+import SponsorImageGallery from "../components/SponsorImageGallery"; // Import the new component
 import sp1 from "../assets/sponsor/sp1.jpg";
 import sp2 from "../assets/sponsor/sp2.jpg";
 import sp3 from "../assets/sponsor/sp3.jpg";
@@ -69,7 +69,7 @@ const SponsorsPage = () => (
       >
         Sponsor Highlights
       </h3>
-      <ImageGallery images={sponsorsContent.images} columns={3} />
+      <SponsorImageGallery images={sponsorsContent.images} columns={3} />
     </div>
   </PageWrapper>
 );
