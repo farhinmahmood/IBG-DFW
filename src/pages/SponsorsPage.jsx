@@ -69,7 +69,7 @@ const SponsorsPage = () => (
       >
         Sponsor Highlights
       </h3>
-      <ImageGallery images={sponsorsContent.images} imageClassName="h-48" />
+      <ImageGallery images={sponsorsContent.images} columns={3} />
     </div>
   </PageWrapper>
 );

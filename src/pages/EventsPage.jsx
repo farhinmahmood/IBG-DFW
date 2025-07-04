@@ -2,7 +2,7 @@ import React from "react";
 import PageWrapper from "../components/PageWrapper";
 import SectionTitle from "../components/SectionTitle";
 import ImageGallery from "../components/ImageGallery";
-import homePhoto2 from "../assets/front.jpg";
+import homePhoto2 from "../assets/events/front.jpg";
 import com3 from "../assets/comser/com3.jpg";
 import ev1 from "../assets/events/ev1.jpg";
 import ev2 from "../assets/events/ev2.jpg";
@@ -58,6 +58,7 @@ const eventsContent = {
     },
   ],
   images: [
+    { type: "video", url: "https://www.youtube.com/embed/L-GmbVrmaDA" },
     homePhoto2,
     ev1,
     ev2,
