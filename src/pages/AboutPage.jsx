@@ -1,7 +1,7 @@
 import React from "react";
 import PageWrapper from "../components/PageWrapper";
 import SectionTitle from "../components/SectionTitle";
-import aboutPhoto from "../assets/about.jpg";
+import aboutPhoto from "../assets/about/about.jpg";
 import { colors } from "../colors";
 
 const aboutContent = {

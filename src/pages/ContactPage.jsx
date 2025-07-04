@@ -22,8 +22,7 @@ const contactContent = {
       name: "Facebook",
       url: "https://www.facebook.com/profile.php?id=61571315613081",
     },
-    { name: "Instagram", url: "https://instagram.com/your-profile-link" },
-    { name: "X", url: "https://twitter.com/your-handle" },
+    { name: "Linkedin", url: "https://www.linkedin.com/company/ibg-dfw/" },
   ],
 };
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Facebook, Linkedin } from "lucide-react";
 
 const SocialIcon = ({ name }) => {
   const iconProps = {
@@ -9,10 +9,8 @@ const SocialIcon = ({ name }) => {
   switch (name) {
     case "Facebook":
       return <Facebook {...iconProps} />;
-    case "Instagram":
-      return <Instagram {...iconProps} />;
-    case "X":
-      return <Twitter {...iconProps} />;
+    case "Linkedin":
+      return <Linkedin {...iconProps} />;
     default:
       return null;
   }

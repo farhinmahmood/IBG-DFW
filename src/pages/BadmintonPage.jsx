@@ -2,10 +2,10 @@ import React from "react";
 import PageWrapper from "../components/PageWrapper";
 import SectionTitle from "../components/SectionTitle";
 import ImageGallery from "../components/ImageGallery";
-import bad1 from "../assets/bad1.jpg";
-import bad2 from "../assets/bad2.jpg";
-import bad3 from "../assets/bad3.jpg";
-import bad4 from "../assets/bad4.jpg";
+import bad1 from "../assets/badminton/bad1.jpg";
+import bad2 from "../assets/badminton/bad2.jpg";
+import bad3 from "../assets/badminton/bad3.jpg";
+import bad4 from "../assets/badminton/bad4.jpg";
 import { colors } from "../colors";
 
 const badmintonContent = {

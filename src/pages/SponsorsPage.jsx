@@ -2,21 +2,28 @@ import React from "react";
 import PageWrapper from "../components/PageWrapper";
 import SectionTitle from "../components/SectionTitle";
 import ImageGallery from "../components/ImageGallery";
-import sp1 from "../assets/sp1.jpg";
-import sp2 from "../assets/sp2.jpg";
-import sp3 from "../assets/sp3.jpg";
-import sp4 from "../assets/sp4.jpg";
-import sp5 from "../assets/sp5.jpeg";
-import sp6 from "../assets/sp6.jpeg";
-import sp7 from "../assets/sp7.jpeg";
-import sp8 from "../assets/sp8.jpeg";
-import sp9 from "../assets/sp9.jpg";
-import sp10 from "../assets/sp10.jpeg";
-import sp11 from "../assets/sp11.jpg";
-import sp12 from "../assets/sp12.png";
-import sp13 from "../assets/sp13.jpg";
-import sp14 from "../assets/sp14.jpg";
-import sp15 from "../assets/sp15.jpg";
+import sp1 from "../assets/sponsor/sp1.jpg";
+import sp2 from "../assets/sponsor/sp2.jpg";
+import sp3 from "../assets/sponsor/sp3.jpg";
+import sp4 from "../assets/sponsor/sp4.jpg";
+import sp5 from "../assets/sponsor/sp5.jpeg";
+import sp6 from "../assets/sponsor/sp6.jpeg";
+import sp7 from "../assets/sponsor/sp7.jpeg";
+import sp8 from "../assets/sponsor/sp8.jpeg";
+import sp9 from "../assets/sponsor/sp9.jpg";
+import sp10 from "../assets/sponsor/sp10.jpeg";
+import sp11 from "../assets/sponsor/sp11.jpg";
+import sp12 from "../assets/sponsor/sp12.png";
+import sp13 from "../assets/sponsor/sp13.jpg";
+import sp14 from "../assets/sponsor/sp14.jpg";
+import sp15 from "../assets/sponsor/sp15.jpg";
+import sp17 from "../assets/sponsor/sp17.jpg";
+import sp18 from "../assets/sponsor/sp18.jpg";
+import sp19 from "../assets/sponsor/sp19.jpg";
+import sp20 from "../assets/sponsor/sp20.jpg";
+import sp21 from "../assets/sponsor/sp21.jpg";
+import sp22 from "../assets/sponsor/sp22.jpeg";
+import sp23 from "../assets/sponsor/sp23.jpeg";
 import { colors } from "../colors";
 
 const sponsorsContent = {
@@ -38,6 +45,13 @@ const sponsorsContent = {
     sp13,
     sp14,
     sp15,
+    sp17,
+    sp18,
+    sp19,
+    sp20,
+    sp21,
+    sp22,
+    sp23,
   ],
 };
 

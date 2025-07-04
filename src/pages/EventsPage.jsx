@@ -3,21 +3,31 @@ import PageWrapper from "../components/PageWrapper";
 import SectionTitle from "../components/SectionTitle";
 import ImageGallery from "../components/ImageGallery";
 import homePhoto2 from "../assets/front.jpg";
-import aboutPhoto from "../assets/about.jpg";
-import com3 from "../assets/com3.jpg";
-import ev1 from "../assets/ev1.jpg";
-import ev2 from "../assets/ev2.jpg";
-import ev1_jpeg from "../assets/ev1.jpeg";
-import ev2_jpeg from "../assets/ev2.jpeg";
-import ev3_jpeg from "../assets/ev3.jpeg";
-import ev4_jpeg from "../assets/ev4.jpeg";
-import ev5_jpeg from "../assets/ev5.jpeg";
+import com3 from "../assets/comser/com3.jpg";
+import ev1 from "../assets/events/ev1.jpg";
+import ev2 from "../assets/events/ev2.jpg";
+import ev1_jpeg from "../assets/events/ev1.jpeg";
+import ev2_jpeg from "../assets/events/ev2.jpeg";
+import ev3_jpeg from "../assets/events/ev3.jpeg";
+import ev4_jpeg from "../assets/events/ev4.jpeg";
+import ev5_jpeg from "../assets/events/ev5.jpeg";
+import galaDinner from "../assets/events/GalaDinner.jpg";
+import openingCeremony from "../assets/events/OpeningCeremony.jpg";
+import badmintonWorkshop from "../assets/events/BadmintonWorkshop.jpeg";
+import AnnualTournament from "../assets/events/AnnualTournament.jpg";
 import { colors } from "../colors";
 
 const eventsContent = {
   title: "Upcoming Events",
   text: "Stay updated with our latest events, from tournaments to community service days. We'd love for you to join us!",
   events: [
+    {
+      title: "Badminton trounament for kids",
+      date: "July 11,July 18,July 25, 2025",
+      description:
+        "Join us in providing a warm meal and support for our neighbors in South Dallas. A great opportunity to serve and connect.",
+      image: badmintonWorkshop,
+    },
     {
       title: "Luncheon for the South Dallas Community",
       date: "July 12, 2025",
@@ -30,14 +40,21 @@ const eventsContent = {
       date: "August 9, 2025",
       description:
         "An evening of celebration and fundraising to support our ongoing community projects. Formal attire requested.",
-      image: ev1,
+      image: galaDinner,
     },
     {
       title: "Annual Tournament with Opening Ceremony",
       date: "November 21 – November 22, 2025",
       description:
         "Our flagship badminton tournament is back! Two days of intense competition, community spirit, and fun for the whole family.",
-      image: ev2,
+      image: openingCeremony,
+    },
+    {
+      title: "Annual Tournament and Closing Ceremony",
+      date: "November 22, 2025",
+      description:
+        "Our flagship badminton tournament is back! Two days of intense competition, community spirit, and fun for the whole family.",
+      image: AnnualTournament,
     },
   ],
   images: [
@@ -49,7 +66,6 @@ const eventsContent = {
     ev3_jpeg,
     ev4_jpeg,
     ev5_jpeg,
-    aboutPhoto,
   ],
 };
 

@@ -2,16 +2,16 @@ import React from "react";
 import PageWrapper from "../components/PageWrapper";
 import SectionTitle from "../components/SectionTitle";
 import ImageGallery from "../components/ImageGallery";
-import com1 from "../assets/com1.jpg";
-import com3 from "../assets/com3.jpg";
-import com4 from "../assets/com4.jpg";
-import com5 from "../assets/com5.jpg";
-import com6 from "../assets/com6.jpg";
-import com7 from "../assets/com7.jpg";
-import com8 from "../assets/com8.jpg";
-import com9 from "../assets/com9.jpg";
-import com10 from "../assets/com10.jpg";
-import com11 from "../assets/com11.jpg";
+import com1 from "../assets/comser/com1.jpg";
+import com3 from "../assets/comser/com3.jpg";
+import com4 from "../assets/comser/com4.jpg";
+import com5 from "../assets/comser/com5.jpg";
+import com6 from "../assets/comser/com6.jpg";
+import com7 from "../assets/comser/com7.jpg";
+import com8 from "../assets/comser/com8.jpg";
+import com9 from "../assets/comser/com9.jpg";
+import com10 from "../assets/comser/com10.jpg";
+import com11 from "../assets/comser/com11.jpg";
 import { colors } from "../colors";
 
 const communityContent = {

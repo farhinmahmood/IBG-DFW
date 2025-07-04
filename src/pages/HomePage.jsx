@@ -1,7 +1,7 @@
 import React from "react";
 import PageWrapper from "../components/PageWrapper";
 import logo from "../assets/IndoorBadmintonGroupLogo.png";
-import homePhoto1 from "../assets/FrontPagePicture.jpg";
+import homePhoto1 from "../assets/FrontPagePicture.png";
 import { colors } from "../colors";
 
 const LOGO_URL = logo;
