@@ -6,6 +6,7 @@ import bad1 from "../assets/badminton/bad1.jpg";
 import bad2 from "../assets/badminton/bad2.jpg";
 import bad3 from "../assets/badminton/bad3.jpg";
 import bad4 from "../assets/badminton/bad4.jpg";
+import bad5 from "../assets/badminton/bad5.jpg";
 import { colors } from "../colors";
 
 const badmintonContent = {
@@ -22,7 +23,7 @@ const badmintonContent = {
     title: "Summer Badminton Workshop",
     text: "IBG DFW members organize badminton workshops for children 7 years or older every summer. The capacity of this workshop is up to 20 members. The workshop is led by experienced coaches and the children have a great time learning about Badminton as well as community service.",
   },
-  images: [bad1, bad2, bad3, bad4],
+  images: [bad5,bad1, bad2, bad3, bad4],
 };
 
 const BadmintonPage = () => (
